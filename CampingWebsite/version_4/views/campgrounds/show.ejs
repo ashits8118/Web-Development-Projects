@@ -1,0 +1,18 @@
+<% include ../partials/header.ejs %>
+    <h1> <%= foundCampgrounds.name %> </h1>
+    
+<img src="<%= foundCampgrounds.image %> "></img>
+
+<p><%= foundCampgrounds.description %></p>
+
+<p> <a class="btn btn-success"
+href="/campgrounds/<%= foundCampgrounds._id %>/comments/new">Add new Comment</a>
+    
+</a></p>
+<% foundCampgrounds.comments.forEach(function(comment){ %>
+
+<p> <strong><%=comment.author %></strong> - <%= comment.text %> </p>
+
+<%  }) %>
+
+<% include ../partials/footer.ejs %>
