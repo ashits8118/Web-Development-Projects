@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="test_v_1">
+      <implementation-class>services.test_v_1</implementation-class>
+    </service>
+    <service name="test_v2">
+      <implementation-class>services.test_v2</implementation-class>
+    </service>
+    <service name="test_v4">
+      <implementation-class>services.test_v4</implementation-class>
+    </service>
+    <service name="test_v5">
+      <implementation-class>services.test_v5</implementation-class>
+    </service>
+    <service name="Test_v6">
+      <implementation-class>services.Test_v6</implementation-class>
+    </service>
+    <service name="Test_final">
+      <implementation-class>services.Test_final</implementation-class>
+    </service>
+    <service name="NewWebService">
+      <implementation-class>services.NewWebService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

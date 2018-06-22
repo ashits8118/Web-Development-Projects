@@ -18,6 +18,7 @@ app.get('/campgrounds',function(req,res){
 
 app.post("/campgrounds",function(req,res){
     // get data from forms and add to campground array
+    var name = req.body.name;
     var image= req.body.image;
     var newCampinggrounds ={name:name,image:image};
     camgrounds.push(newCampinggrounds);
